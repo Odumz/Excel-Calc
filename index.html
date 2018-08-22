@@ -339,11 +339,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class = "wthree_pop_up">
 		<div id="small-dialog8" class="mfp-hide agile_signup_form">
 			<h2>Calculate</h2>
-			<form onsubmit="return false" oninput="v.value = (1 /(((parseFloat(interestRate.value)*0.01)+ (parseFloat(sink.value)*0.01)/((Math.pow((1 + (parseFloat(sink.value)*0.01)), parseFloat(year.value))-1)))));">
-				Interest Rate(%) <input type="number" name="interestRate" id="interestRate" min="0"> <br />
-				Sinking Fund(%) <input type="number" name="sink" id="sink" min="0"> <br />
-				Year <input type="number" min="0" name="year" id="year" min = "0"> <br />
-				Result = <output name="v" id="v" for="sink interestRate  year "></output>
+			<form onsubmit="return false" oninput="v.value=(1 /(((parseFloat(interestRate.value)*0.01)+ (parseFloat(sink.value)*0.01)/((Math.pow((1 + (parseFloat(sink.value)*0.01)), parseFloat(year.value))-1)))));">
+				Interest <input type = "number" name = "c" id = "c" min = "0"> <br />
+				Sink Rate <input type="number" name="b" id="b" min="0"> <br />
+				Year <input type="number" min="0" name="a" id="a"> <br />
+				Result = <output name="v" id="v" for="b a c"></output>
 			</form>
 		</div>
 	</div>
